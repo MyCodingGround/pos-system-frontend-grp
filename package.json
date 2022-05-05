@@ -4,7 +4,7 @@
   "description": "pos-frontEnd",
   "source": [
     "src/index.html"
-  ],
+      ],
   "scripts": {
     "watch": "tsc --watch",
     "build": "parcel build",
