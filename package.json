@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "pos-frontEnd",
   "source": [
-    "src/index.html"
+    "src/index.html",
+    "src/manage-user.html"
+
       ],
   "scripts": {
     "watch": "tsc --watch",
