@@ -1,0 +1,26 @@
+{
+  "name": "pos--frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": [
+    "src/index.html"
+
+  ],
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "parcel build",
+    "start": "parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyCodingGround/pos-system-frontend-grp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyCodingGround/pos-system-frontend-grp/issues"
+  },
+  "homepage": "https://github.com/MyCodingGround/pos-system-frontend-grp#readme"
+}
