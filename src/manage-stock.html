@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/node_modules/admin-lte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="/node_modules/admin-lte/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="css/page/manage-stock.css">
 
     <!-- REQUIRED SCRIPTS -->
     <!-- jQuery -->
@@ -151,6 +152,21 @@
                                         <input type="text" class="form-control" id="txt-product-quantity"
                                                placeholder="Enter Product Quantity">
                                     </div>
+                                    <div class="form-group">
+                                        <label class="col-form-label" for="txt-preview">Preview</label>
+                                        <div id="thumbnail-wrapper">
+                                            <div id="thumbnail"></div>
+                                            <div class="d-flex flex-column">
+                                                <button type="button" id="btn-browse" class="btn btn-success btn-sm"><i
+                                                        class="fas fa-folder-open"></i> BROWSE
+                                                </button>
+                                                <button type="button" id="btn-remove" class="btn btn-danger btn-sm"><i
+                                                        class="fas fa-trash"></i> REMOVE
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <input accept="image/*" type="file" id="txt-preview">
+                                    </div>
 
                                     <div class="card-footer">
                                         <button id="btn-save" type="submit" class="btn btn-primary btn-sm">
@@ -160,6 +176,7 @@
                                             CLEAR
                                         </button>
                                     </div>
+
                             </form>
                         </div>
                     </div>
@@ -184,6 +201,7 @@
                                     <tbody>
                                     <tr>
                                         <th>Product ID</th>
+                                        <th>Image</th>
                                         <th>Product Name</th>
                                         <th>Price Rs:</th>
                                         <th>Description</th>
@@ -194,6 +212,7 @@
                                         <td>
                                             P001
                                         </td>
+                                        <td><div class="stock-preview" style="background-image: url('https://m.media-amazon.com/images/I/51EWRgaqIKL.jpg')"></div></td>
                                         <td>
                                             Lux Soap
                                         </td>
@@ -214,6 +233,7 @@
                                         <td>
                                             P001
                                         </td>
+                                        <td><div class="stock-preview" style="background-image: url('https://m.media-amazon.com/images/I/51EWRgaqIKL.jpg')"></div></td>
                                         <td>
                                             Lux Soap
                                         </td>
@@ -233,6 +253,7 @@
                                         <td>
                                             P001
                                         </td>
+                                        <td><div class="stock-preview" style="background-image: url('https://m.media-amazon.com/images/I/51EWRgaqIKL.jpg')"></div></td>
                                         <td>
                                             Lux Soap
                                         </td>
