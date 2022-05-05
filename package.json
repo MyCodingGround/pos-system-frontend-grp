@@ -4,9 +4,14 @@
   "description": "pos-frontEnd",
   "source": [
     "src/index.html",
+<<<<<<< HEAD
     "src/manage-user.html"
 
       ],
+=======
+    "src/manage-stock.html"
+  ],
+>>>>>>> origin/master
   "scripts": {
     "watch": "tsc --watch",
     "build": "parcel build",
